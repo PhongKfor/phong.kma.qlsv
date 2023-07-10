@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web qlsv</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* tr:nth-child(even) {
+            background-color: #dddddd;
+        } */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="heading">
+            <h2>Danh sách sinh viên</h2>
+        </div>
+        <div class="btn">
+            <button id="addStudent">Thêm sinh viên</button>
+            <button id="deleteStudent">Xóa sinh viên</button>
+        </div>
+    </div>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Năm sinh</th>
+                <th>Giới tính</th>
+                <th>Quê quán</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
